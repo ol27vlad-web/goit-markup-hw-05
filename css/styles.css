@@ -533,6 +533,9 @@ a {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.comment-textarea::placeholder{
+    color: rgba(46, 47, 66, 0.4);
+}
 .footer-form-input::placeholder {
     color: #ffffff;
 }
@@ -695,7 +698,7 @@ a {
 }
 
 
-.form-field-wrapper:nth-last-child(2) {
+.form-field-wrapper {
     margin-bottom: 16px;
 }
 
@@ -778,4 +781,9 @@ a {
 .button-send:hover,
 .button-send:focus {
     background-color: #404bbf;
+}
+.visually-hidden:checked+label .custom-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
 }
