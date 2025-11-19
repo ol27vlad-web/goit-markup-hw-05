@@ -783,3 +783,6 @@ a {
     border: none;
     fill: #f4f4fd;
 }
+.comment-field{
+    margin-bottom: 16px;
+}
